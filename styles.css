@@ -54,26 +54,28 @@ table {
 
 /* TEXT STYLE */
 
+h3 {
+  padding-left: 25%;
+  padding-right: 30%;
+}
 
 h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 
 }
 
 
-@media (min-width: 360px) and (max-width: 1023px) {
+@media (min-width: 360px) {
     h3, h4, h5 {
       font-family: 'Montserrat', sans-serif;
       padding-top: 20px;
       padding-bottom: 40px;
-      text-align: center;
-    }
+     }
 
     h3 {
         font-size: 69px;
         font-weight: 900;
-        text-align: center;
-        padding-left: 85px;
     }
 
     h4 {
@@ -92,7 +94,7 @@ h3, h4, h5 {
         padding-right:10px;
     }
 
-    u {
+    .highlight {
         font-weight: 700;
         background-color: #000000;
         color:#FFFFFF;
@@ -110,9 +112,6 @@ h3, h4, h5 {
   }
 
 
-html {
-    background-color: #000000;
-}
 
 #logo {
     height: 200px;
@@ -123,12 +122,15 @@ html {
     margin-right: auto;
 }
 
-.collection {
+.collection, .pictures {
     height: auto;
     width: 95%;
     display: block;
     margin-left: auto;
     margin-right:auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
 }
 
 h1, h2 {
@@ -221,6 +223,7 @@ footer {
     padding-left: 50px;
     padding-top: 15px;
     font-weight: 600;
+    margin-right: 5px;
     color: #FFFFFF;
   }
   
@@ -272,10 +275,8 @@ footer {
     padding: 50px;
     padding-top: 125px;
     list-style-type: none;
-    left: -1000%;
-    -webkit-transition: left 0.3s ease;
-    -o-transition: left 0.3s ease;
-    transition: left 0.3s ease; 
+    left: -10000%;
+  
   }
   
   ul li {
@@ -305,8 +306,89 @@ footer {
     margin-left: 10px;
   }
 
-  
+
+  @media screen and (min-width: 1024px) {
+    h3, h4, h5 {
+      font-family: 'Montserrat', sans-serif;
+      padding-top: 20px;
+      padding-bottom: 40px;
+  }
+    
+    #intro {
+      padding-left: 39%;
+      width: auto;
+  }
+
+    .spaceFix {
+      padding-left: 39%;
+      width:
+    }
+
+
+    input, label {
+      display: none; 
+      visibility: hidden;
+    }
+
+    ul {
+        position: static; 
+        width: auto;
+        margin: 0;
+        padding: 0;
+        display: flex; 
+        justify-content: center; 
+
+        
+  }
+
+    ul li {
+        background: none;
+        padding: 30px 45px;
+        font-size: 25px;
+        border: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        background-color: #000000;
+        margin-right: 15px;
+        padding: auto;
+        border-radius: 30px;
+        width: auto;
+
+  }
+
+    li:nth-of-type(1){
+      margin: 0;
+      width:100px
+  }
+
+
+    #logo {
+      height: auto;
+      width: 375px;
+      margin:0;
+      margin-top: -60px;
+  }
+
+    #first {
+      width:auto;
+
+  }
+
+  .collection {
+    width: 90%;
+  }
+
+  .pictures {
+    width: 40%;
+  }
+
+
+   
+
+    
+}
 
 
 
-  
+
+
