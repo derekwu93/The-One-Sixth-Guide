@@ -1,2 +1,2 @@
-# GIT480
+# The One Sixth Guide
  senior project
