@@ -71,3 +71,8 @@ Videos page – part 1
 <img width="1090" height="1003" alt="image" src="https://github.com/user-attachments/assets/e8708092-2975-4594-9c60-761228d59377" />
 
 Videos page – part 2
+
+
+#### Additional Remarks
+
+I plan to revise this project over the course of the next year. I’d like to change the color scheme, though I haven’t decided on a better one yet. I also plan to make monthly updates to the website, especially as new third-party sellers continue to scam members of the community. Additionally, I’d love to add a comments section to each page so audiences can share their input and point out anything I might have originally missed.
